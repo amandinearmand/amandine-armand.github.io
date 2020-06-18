@@ -49,7 +49,7 @@ p, ul, li {
 }
 /*Alignement texte*/
 body {
-	background: #ebd3b5;
+	background: #5090DB;
 	text-align: center;
 }
 /*portrait amandine*/
@@ -69,7 +69,7 @@ ul, li {
 }
 /*background du texte*/
 div {
-	background: #e6caa6;
+	background: #5090DB;
 }
 /*taille images de créa*/
 img {
@@ -84,7 +84,7 @@ img {
 }
 /*propriétés des cadres*/
 .cadre {
-  background: #ebd3b5;
+  background: #8DC2EE;
   border: 3px solid white;
   margin: 20px 100px;
   padding: 30px 70px;
@@ -120,26 +120,26 @@ img {
 .line-light {
   height: 5px;
   width: 20%;
-  background: #725E45;
+  background: #FBEC02;
 }
 
 .line-medium {
   height: 5px;
   width: 30%;
-  background: #8E7656;
+  background: #FFA806;
 }
 
 .line-hard {
   height: 5px;
   width: 50%;
-  background: #B2936C;
+  background: #F30505;
 }
 /*mise en forme de la navbar*/
 .my-navbar {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #ebd3b5;
+  background: #5090DB;
 }
 
 .links {
@@ -167,7 +167,7 @@ img {
 	object-fit: cover;
 }
 /*Mise en forme des boutons*/
-.btn-white {
+.my-btn-blue {
 	color: white;
 	opacity: 0.8;
 }
@@ -182,7 +182,7 @@ img {
 	object-fit: cover;
 }
 .footer {
-  background: #ebd3b5;
+  background: #5090DB;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -204,15 +204,15 @@ img {
 .footer-links a:hover {
   opacity: 1;
 }
-.my-btn-white {
+.my-btn-blue {
 	display: inline-block;
 	color: white;
-	background: #8E7656;
+	background: #5090DB;
 	margin: 10px;
 	padding: 10px;
 	border-radius: 5px;
 	font-weight: bold;
 }
-.my-btn-white: hover {
+.my-btn-blue: hover {
 	color: white;
 }
