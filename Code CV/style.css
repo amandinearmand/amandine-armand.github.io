@@ -1,0 +1,218 @@
+/*Titre principal*/
+h1 {
+	color: white;
+	font-size: 32px;
+	font-family: avenir;
+}
+/*Sous titre*/
+h2 {
+	color: white;
+	font-size: 25px;
+	font-family: avenir;
+	text-align: center;
+}
+h3 {
+	color: white;
+	font-size: 25px;
+	font-family: avenir;
+	text-align: center;
+}
+h4 {
+	color: white;
+	font-size: 25px;
+	font-family: avenir;
+	text-align: center;
+}
+h5 {
+	color: white;
+	font-size: 25px;
+	font-family: avenir;
+	text-align: center;
+}
+h6 {
+	color: white;
+	font-size: 25px;
+	font-family: avenir;
+	text-align: center;
+}
+h7 {
+	color: white;
+	font-size: 25px;
+	font-family: avenir;
+	text-align: center;
+}
+/*Texte*/
+p, ul, li {
+	color: white;
+	font-size: 20px;
+	font-family: 'Open Sans Condens ed', sans-serif;
+}
+/*Alignement texte*/
+body {
+	background: #5090DB;
+	text-align: center;
+}
+/*portrait amandine*/
+img {
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+}
+.avatar {
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+}
+/*boulet points*/
+ul, li {
+	text-align: left;
+}
+/*background du texte*/
+div {
+	background: #5090DB;
+}
+/*taille images de créa*/
+img {
+	width: 800px;
+	height: 600px;
+	object-fit: cover;
+}
+.production {
+	width: 500px;
+	height: 400px;
+	object-fit: cover;
+}
+/*propriétés des cadres*/
+.cadre {
+  background: #8DC2EE;
+  border: 3px solid white;
+  margin: 20px 100px;
+  padding: 30px 70px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px white;
+}
+
+.avatar {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px white;
+}
+
+.production {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 3px;
+  box-shadow: 2px 2px 10px white;
+  margin: 10px;
+}
+/*mise en forme des trait en haut de la page*/
+.line-transparent {
+  background: black;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.line-light {
+  height: 5px;
+  width: 20%;
+  background: #FBEC02;
+}
+
+.line-medium {
+  height: 5px;
+  width: 30%;
+  background: #FFA806;
+}
+
+.line-hard {
+  height: 5px;
+  width: 50%;
+  background: #F30505;
+}
+/*mise en forme de la navbar*/
+.my-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #5090DB;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  margin: 10px 30px;
+  color: white;
+}
+
+.link: hover{
+  color: #ebd3b5;
+}
+/*Mise en forme du logo*/
+.logo {
+	height: 10%;
+	width: 10%;
+}
+/*Mise en forme des cartes*/
+.card-img-top {
+	height: 200px;
+	width: 100%;
+	object-fit: cover;
+}
+/*Mise en forme des boutons*/
+.my-btn-blue {
+	color: white;
+	opacity: 0.8;
+}
+.carte {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.img1 {
+	width: 900px;
+	height: 650px;
+	object-fit: cover;
+}
+.footer {
+  background: #5090DB;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: white;
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.my-btn-blue {
+	display: inline-block;
+	color: white;
+	background: #5090DB;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	font-weight: bold;
+}
+.my-btn-blue: hover {
+	color: white;
+}
